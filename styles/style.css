@@ -284,9 +284,9 @@ header {
 
 .headerFloatingImages img {
   width: 100px;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   margin-right: 70px; }
 
 .sectionTitle {
@@ -321,6 +321,10 @@ header {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
+  .aboutLists li {
+    margin-bottom: 15%;
+    font-size: 15px;
+    margin-right: 5%; }
 
 footer {
   background-color: #fabe01;

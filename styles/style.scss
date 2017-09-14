@@ -89,7 +89,7 @@ header {
 }
 .headerFloatingImages img {
 	width: 100px;
-	transform: rotate(45deg);
+	transform: rotate(-45deg);
 	margin-right: 70px;
 }
 .sectionTitle {
@@ -121,7 +121,9 @@ header {
 .aboutLists {
 	display: flex;
 	li {
-		
+		margin-bottom: 15%;
+		font-size: 15px;
+		margin-right: 5%;
 	}
 }
 
