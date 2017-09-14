@@ -3,8 +3,167 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Beckah Moscuzza Portfolio</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="https://use.fontawesome.com/82ee036dfb.js"></script>
 </head>
 <body>
-	
+	<nav class="wrapper">
+		<div class="logo">
+				
+		</div>
+		<div class="navBar">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="http://beckah.moscuzza.ca/" target="_blank">Blog</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+			</ul>			
+		</div>
+	</nav>
+	<header id="home">
+		<div class="headerPicture">
+			<img src="images/beckah_moscuzza_headshot.jpg" alt="Headshot of Beckah Moscuzza taken by Pam Lau">
+		</div>
+		<div class="headerName">
+			<h2>I'm</h2>
+			<h1>Beckah Moscuzza</h1>
+			<p>Web Developer</p>
+			<button class="headerButton"><a href="#about">About Me</a></button>
+		</div>
+		<div class="headerFloatingImages">
+			<img src="images/book_is_better.png" alt="">
+			<img src="images/dungeons_and_dragons.png" alt="">
+			<img src="images/soundbyte.png" alt="">
+			<img src="images/the_weather_outside.png" alt="">
+		</div>
+	</header>
+	<section id="about" class="wrapper">
+		<div class="aboutMeData">
+			<div class="sectionTitle">
+				<i class="fa fa-circle" aria-hidden="true"></i>
+				<div class="sectionTitleText">
+					<h3>About <span>Me</span></h3>
+					<p>Who Am I?</p>
+				</div>
+			</div>
+			<section class="aboutLists">
+				<ul class="listLeft">
+					<li>Full Name:</li>
+					<li>Date Of Birth:</li>
+					<li>Occupation:</li>
+					<li>Phone:</li>
+					<li>Email:</li>
+				</ul>
+				<ul class="listRight">
+					<li>Beckah Moscuzza</li>
+					<li>June 4</li>
+					<li>Web Developer</li>
+					<li>647-998-2990</li>
+					<li>beckah@moscuzza.ca</li>
+				</ul>
+			</section>
+			<button>Download My Resume</button>
+			<button>Hire Me Now</button>
+		</div>
+		<div class="aboutSocial">
+			<img src="" alt="">
+			<ul class="aboutSocialLinks">
+				<li><a href="https://www.linkedin.com/in/beckahmoscuzza" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				<li><a href="https://github.com/RHMoscuzza" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+				<li><a href="https://twitter.com/rhmoscuzza?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+		<div class="aboutSkills">
+			<h4>Skills</h4>
+			<div class="skillIcons">
+				<ul>
+					<li><i class="devicon-babel-plain"></i></li>
+					<li><i class="devicon-css3-plain"></i></li>
+					<li><i class="devicon-gulp-plain"></i></li>
+					<li><i class="devicon-html5-plain"></i></li>
+					<li><i class="devicon-react-original"></i></li>
+					<li><i class="devicon-sass-original"></i></li>
+					<li><i class="devicon-javascript-plain"></i></li>
+					<li><i class="devicon-jquery-plain"></i></li>
+					<li><i class="devicon-git-plain"></i></li>
+					<li><i class="devicon-github-plain"></i></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section id="portfolio" class="wrapper">
+		<div class="sectionTitle">
+			<i class="fa fa-circle" aria-hidden="true"></i>
+			<div class="sectionTitleText">
+				<h3>Latest <span>Work</span></h3>
+				<p>My Portfolio</p>
+			</div>
+		</div>
+		<div class="portfolioContent">
+			<div>
+				<img src="images/soundbyte.png" alt="Snapshot of my PSD Coversion project">
+				<h5>PSD Conversion</h5>
+				<p>HTML5, CSS3, Sass</p>
+			</div>
+			<div>
+				<img src="images/dungeons_and_dragons.png" alt="Snapshot of my partner project">
+				<h5>JavaScript Partner Project</h5>
+				<p>JavaScript, HTML5, CSS3, Sass, jQuery</p>
+			</div>
+			<div>
+				<img src="images/book_is_better.png" alt="Snapshot of my team project">
+				<h5>API Team Project</h5>
+				<p>JavaScript, HTML5, CSS3, Sass, jQuery, Gulp, Git, Github</p>
+			</div>
+			<div>
+				<img src="images/the_weather_outside.png" alt="Snapshot of my API and Firebase project">
+				<h5>API and Firebase Project</h5>
+				<p>JavaScript, HTML5, CSS3, Sass, jQuery, Gulp, Git, Github, Firebase</p>
+			</div>
+		</div>
+	</section>
+	<section id="contact" class="wrapper">
+		<div class="sectionTitle">
+			<i class="fa fa-circle" aria-hidden="true"></i>
+			<div class="sectionTitleText">
+				<h3>Contact <span>Me</span></h3>
+				<p>How To Reach Me.</p>
+			</div>
+		</div>
+		<section>
+			<h3>Send Me A Message</h3>
+			<form>
+				<label for="">Name</label>
+				<input type="text" placeholder="Full Name">
+				<label for="">Email</label>
+				<input type="email" placeholder="Email">
+				<label for="">Subject</label>
+				<input type="text" placeholder="Your subject goes here">
+				<label for="">Message</label>
+				<textarea name="" id="" cols="30" rows="10" placeholder="Your message goes here"></textarea>
+				<button>Submit</button>
+			</form>
+			<div>
+				<h4>Get In Touch</h4>
+				<div class="contactLists">
+					<ul class="contactLeft">
+						<li><i class="fa fa-phone" aria-hidden="true"></i></li>
+						<li><i class="fa fa-envelope" aria-hidden="true"></i></li>
+					</ul>
+					<ul class="contactRight">
+						<li>647-998-2990</li>
+						<li>beckah@moscuzza.ca</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</section>
+	<footer>
+		<div class="wrapper">
+			<p>Designed by <a href="https://themeforest.net/item/man-one-page-personal-resumecv-template/20057362?s_rank=5">Spark-Media.</a> Built by Beckah Moscuzza 2017</p>
+		</div>
+	</footer>
 </body>
 </html>
