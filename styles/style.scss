@@ -65,6 +65,7 @@ header {
 	border-radius: 50%;
 	border: 3px solid #000;
 	margin-right: 75px;
+	width: 400px;
 }
 .headerName h1 {
 	font-weight: bold;
@@ -91,7 +92,7 @@ header {
 	flex-wrap: wrap;
 }
 .headerFloatingImages img {
-	width: 100px;
+	width: 250px;
 	transform: rotate(-45deg);
 	margin-right: 70px;
 }
@@ -131,6 +132,11 @@ header {
 		color: #fabe01;
 	}
 }
+.skillIcons {
+	display: flex;
+	font-size: 25px;
+    justify-content: space-evenly;
+}
 .aboutLists {
 	display: flex;
 	li {
@@ -145,6 +151,11 @@ header {
 	flex-wrap: wrap;
 	div {
 		margin: 5px 10px;
+	}
+	div:hover {
+		-webkit-box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
+		-moz-box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
+		box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
 	}
 }
 

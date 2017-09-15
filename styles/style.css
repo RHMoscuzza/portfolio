@@ -257,7 +257,8 @@ header {
 .headerPicture img {
   border-radius: 50%;
   border: 3px solid #000;
-  margin-right: 75px; }
+  margin-right: 75px;
+  width: 400px; }
 
 .headerName h1 {
   font-weight: bold;
@@ -286,7 +287,7 @@ header {
   flex-wrap: wrap; }
 
 .headerFloatingImages img {
-  width: 100px;
+  width: 250px;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
@@ -331,6 +332,17 @@ header {
   .aboutSkillsTitle i {
     color: #fabe01; }
 
+.skillIcons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 25px;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly; }
+
 .aboutLists {
   display: -webkit-box;
   display: -webkit-flex;
@@ -351,6 +363,10 @@ header {
   flex-wrap: wrap; }
   .portfolioContent div {
     margin: 5px 10px; }
+  .portfolioContent div:hover {
+    -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
+    -moz-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
+    box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37); }
 
 .contactFormWrap {
   display: -webkit-box;
