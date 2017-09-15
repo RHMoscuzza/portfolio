@@ -189,9 +189,6 @@ ul {
 h2 {
   font-size: 48px; }
 
-img {
-  width: 500px; }
-
 nav {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -322,18 +319,15 @@ header {
   color: #fabe01;
   margin: 0; }
 
-.aboutMeData button {
-  background-color: transparent;
-  color: #000;
-  width: 130px;
-  height: 35px;
-  border: 1px solid #000;
-  font-size: 15px; }
-  .aboutMeData button a {
-    color: #000;
-    padding: 10px; }
-  .aboutMeData button a:hover {
-    color: #fff; }
+.headerButton {
+  color: #fff; }
+  .headerButton a {
+    width: 130px;
+    height: 35px;
+    border: 1px solid #000;
+    font-size: 15px; }
+  .headerButton a:hover {
+    color: #dabe01; }
 
 .aboutMeData button:hover {
   background-color: #dabe01; }
@@ -369,10 +363,41 @@ header {
   flex-wrap: wrap; }
 
 .aboutSocial {
-  width: 50%; }
-  .aboutSocial img {
-    width: 300px;
-    border: 3px solid #dabe01; }
+  width: 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .aboutSocial ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+
+.aboutSocial li {
+  font-size: 20px;
+  margin-right: 10px; }
+  .aboutSocial li a {
+    color: #000; }
+    .aboutSocial li a :hover {
+      color: #dabe01; }
+
+.aboutSocial img {
+  width: 300px;
+  border: 3px solid #dabe01; }
 
 .nameAndPhoto {
   display: -webkit-box;
@@ -397,9 +422,16 @@ header {
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .portfolioContent img {
+    width: 350px; }
   .portfolioContent div {
-    margin: 5px 10px; }
+    margin: 5px 10px;
+    width: 350px; }
   .portfolioContent div:hover {
     -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
     -moz-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
@@ -407,6 +439,8 @@ header {
   .portfolioContent h5, .portfolioContent p {
     padding-left: 15px;
     margin: 20px; }
+  .portfolioContent p {
+    word-wrap: break-word; }
 
 .contactFormWrap {
   display: -webkit-box;
