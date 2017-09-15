@@ -190,7 +190,7 @@ h2 {
   font-size: 48px; }
 
 img {
-  width: 300px; }
+  width: 500px; }
 
 nav {
   font-family: 'Roboto', sans-serif;
@@ -209,6 +209,9 @@ nav {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
+
+nav img {
+  width: 80px; }
 
 .navBar ul {
   display: -webkit-box;
@@ -325,6 +328,17 @@ header {
     margin-bottom: 15%;
     font-size: 15px;
     margin-right: 5%; }
+
+.portfolioContent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .portfolioContent div {
+    margin: 5px 10px; }
 
 footer {
   background-color: #fabe01;

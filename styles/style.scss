@@ -23,7 +23,7 @@ ul {
 }
 h2 {font-size: 48px;}
 img {
-	width: 300px;
+	width: 500px;
 }
 
 nav {
@@ -34,6 +34,9 @@ nav {
 	height: 100px;
 	justify-content: space-between;
 	align-items: center;
+}
+nav img {
+	width: 80px;
 }
 .navBar ul {
 	display: flex;
@@ -127,7 +130,13 @@ header {
 	}
 }
 
-
+.portfolioContent {
+	display: flex;
+	flex-wrap: wrap;
+	div {
+		margin: 5px 10px;
+	}
+}
 
 
 
