@@ -320,6 +320,17 @@ header {
   color: #fabe01;
   margin: 0; }
 
+.aboutSkillsTitle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .aboutSkillsTitle h4 {
+    font-size: 24px;
+    margin: 0; }
+  .aboutSkillsTitle i {
+    color: #fabe01; }
+
 .aboutLists {
   display: -webkit-box;
   display: -webkit-flex;
