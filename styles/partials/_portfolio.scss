@@ -1,0 +1,24 @@
+.portfolioContent {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	img {
+		width: 350px;
+	}
+	div {
+		margin: 5px 10px;
+		width: 350px;
+	}
+	div:hover {
+		-webkit-box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
+		-moz-box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
+		box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
+	}
+	h5, p {
+		padding-left: 15px;
+		margin: 20px;
+	}
+	p {
+		word-wrap: break-word;
+	}
+}

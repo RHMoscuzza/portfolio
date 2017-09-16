@@ -190,6 +190,51 @@ h2 {
   font-size: 48px;
   margin: 0; }
 
+.sectionTitle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 130px;
+  margin-bottom: 70px; }
+
+.sectionTitle i {
+  color: #fabe01;
+  margin-right: 10px;
+  margin-top: 25px;
+  margin-left: 0; }
+
+.sectionTitle::before {
+  content: "";
+  display: block;
+  border-top: 1px solid #fabe01;
+  width: 100%;
+  margin-top: 32px;
+  margin-left: -1110px; }
+
+.sectionTitleText h3 {
+  font-size: 36px;
+  margin: 0; }
+
+.sectionTitleText span {
+  color: #fabe01; }
+
+.sectionTitleText p {
+  font-size: 15px;
+  color: #fabe01;
+  margin: 0; }
+
+button, #home a {
+  background-color: #000;
+  color: #fff;
+  width: 130px;
+  height: 35px;
+  border: none;
+  font-size: 15px; }
+
+button:hover, #home a:hover {
+  color: #dabe01; }
+
 nav {
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -229,6 +274,9 @@ nav img {
 
 .navBar a:hover {
   color: #fabe01; }
+
+#home a {
+  padding: 5px 20px; }
 
 header {
   height: 700px;
@@ -279,20 +327,6 @@ header {
 .headerName p {
   font-size: 18px; }
 
-.headerName button {
-  background-color: #000;
-  color: #fff;
-  width: 130px;
-  height: 35px;
-  border: none;
-  font-size: 15px; }
-
-.headerName a {
-  color: #fff; }
-
-.headerName a:hover {
-  color: #dabe01; }
-
 .headerFloatingImages {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
@@ -304,45 +338,6 @@ header {
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   margin-right: 70px; }
-
-.sectionTitle {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 130px;
-  margin-bottom: 70px; }
-
-.sectionTitle i {
-  color: #fabe01; }
-
-.sectionTitle::before {
-  content: "";
-  display: block;
-  border-top: 1px solid #fabe01;
-  width: 50%; }
-
-.sectionTitleText h3 {
-  font-size: 36px;
-  margin: 0; }
-
-.sectionTitleText span {
-  color: #fabe01; }
-
-.sectionTitleText p {
-  font-size: 15px;
-  color: #fabe01;
-  margin: 0; }
-
-.headerButton {
-  color: #fff; }
-  .headerButton a {
-    width: 130px;
-    height: 35px;
-    border: 1px solid #000;
-    font-size: 15px; }
-  .headerButton a:hover {
-    color: #dabe01; }
 
 .nameAndPhoto {
   display: -webkit-box;
@@ -401,7 +396,9 @@ header {
     font-size: 24px;
     margin: 0; }
   .aboutSkillsTitle i {
-    color: #fabe01; }
+    color: #fabe01;
+    margin-right: 10px;
+    margin-top: 5px; }
 
 .skillIcons {
   display: -webkit-box;
@@ -500,7 +497,9 @@ header {
   .contactTitle h3 {
     margin: 0; }
   .contactTitle i {
-    color: #fabe01; }
+    color: #fabe01;
+    margin-right: 10px;
+    margin-top: 2px; }
 
 .contactFormWrap {
   display: -webkit-box;
@@ -532,7 +531,8 @@ header {
     justify-content: center;
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
-    align-content: center; }
+    align-content: center;
+    margin-right: 25px; }
   .contactFormWrap .contactListsTitle {
     background-color: #dabe01;
     height: 50px;
@@ -564,30 +564,36 @@ header {
   .contactFormWrap .contactRight li {
     padding: 2px;
     margin: 5px; }
+  .contactFormWrap .contactRight i {
+    margin-right: 10px; }
   .contactFormWrap .contactRight a {
     color: #fff; }
   .contactFormWrap .contactRight a:hover {
     color: #dabe01; }
   .contactFormWrap input, .contactFormWrap textarea {
     border: 1px solid #000;
-    width: 300px;
+    width: 100%;
     font-family: 'Roboto', sans-serif;
     font-size: 14px; }
   .contactFormWrap label {
     margin-top: 20px;
     font-size: 15px; }
-  .contactFormWrap button {
-    width: 150px;
-    background: #000;
-    color: #fff;
-    border: none; }
-  .contactFormWrap button:hover {
-    color: #dabe01; }
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 20px; }
 
 .map {
   background-image: url(../images/map_of_toronto.png);
   width: 100%;
-  height: 750px;
+  height: 500px;
   position: relative;
   margin-top: -225px; }
 
@@ -607,3 +613,40 @@ footer {
   -ms-flex-pack: start;
   justify-content: flex-start;
   width: 100%; }
+
+@media screen and (max-width: 1190px) {
+  nav img {
+    margin-left: 5px; } }
+
+@media screen and (max-width: 1120px) {
+  .sectionTitle::before {
+    margin-left: -970px; } }
+
+@media screen and (max-width: 985px) {
+  .sectionTitle::before {
+    margin-left: -900px; } }
+
+@media screen and (max-width: 915px) {
+  .sectionTitle::before {
+    margin-left: -850px; }
+  .aboutLists ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly; }
+  .aboutLists li {
+    margin-left: 10%; } }
+
+@media screen and (max-width: 860px) {
+  .sectionTitle::before {
+    margin-left: -800px; } }
