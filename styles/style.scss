@@ -105,7 +105,7 @@ header {
 .sectionTitle {
 	display: flex;
 	margin-top: 130px;
-	margin-bottom: 20px;
+	margin-bottom: 70px;
 }
 .sectionTitle i {
 	color: #fabe01;
@@ -238,14 +238,21 @@ header {
 		word-wrap: break-word;
 	}
 }
+
 .contactForm {
-	box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
+	box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
 	max-width: 775px;
+	width: 100%;
+	background: #fff;
+	padding: 20px;
+	position: relative;
+	z-index: 10;
 	margin: 0 auto;
 }
 
 .contactTitle {
 	display: flex;
+	padding-left: 75px;
 	h3 {
 		margin: 0;
 	}
@@ -257,6 +264,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	margin: 0 auto;
 	form {
 		flex-direction: column;
 		width: 50%;
@@ -309,13 +317,21 @@ header {
 	}
 	button {
 		width: 150px;
+		background: #000;
+		color: #fff;
+		border: none;
+	}
+	button:hover {
+		color: #dabe01;
 	}
 }
 
 .map {
 	background-image: url(../images/map_of_toronto.png);
 	width: 100%;
-	height: 760px;
+	height: 750px;
+	position: relative;
+	margin-top: -225px;
 }
 
 

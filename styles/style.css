@@ -311,7 +311,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   margin-top: 130px;
-  margin-bottom: 20px; }
+  margin-bottom: 70px; }
 
 .sectionTitle i {
   color: #fabe01; }
@@ -484,13 +484,19 @@ header {
   -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
   box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
   max-width: 775px;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  position: relative;
+  z-index: 10;
   margin: 0 auto; }
 
 .contactTitle {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  padding-left: 75px; }
   .contactTitle h3 {
     margin: 0; }
   .contactTitle i {
@@ -507,7 +513,8 @@ header {
   justify-content: center;
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
-  align-content: center; }
+  align-content: center;
+  margin: 0 auto; }
   .contactFormWrap form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -570,12 +577,19 @@ header {
     margin-top: 20px;
     font-size: 15px; }
   .contactFormWrap button {
-    width: 150px; }
+    width: 150px;
+    background: #000;
+    color: #fff;
+    border: none; }
+  .contactFormWrap button:hover {
+    color: #dabe01; }
 
 .map {
   background-image: url(../images/map_of_toronto.png);
   width: 100%;
-  height: 760px; }
+  height: 750px;
+  position: relative;
+  margin-top: -225px; }
 
 footer {
   background-color: #fabe01;
