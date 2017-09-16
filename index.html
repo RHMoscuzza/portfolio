@@ -19,27 +19,29 @@
 				<li><a href="#home">Home</a></li>
 				<li><a href="#about">About Me</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="http://beckah.moscuzza.ca/" target="_blank">Blog</a></li>
+				<li><a href="http://beckah.moscuzza.ca/blog" target="_blank">Blog</a></li>
 				<li><a href="#contact">Contact Me</a></li>
 			</ul>			
 		</div>
 	</nav>
 	<header id="home">
-		<div class="headerPicture">
-			<img src="images/beckah_moscuzza_headshot.jpg" alt="Headshot of Beckah Moscuzza taken by Pam Lau">
+		<div class="wrapper headerWrap">
+			<div class="headerPicture">
+				<img src="images/beckah_moscuzza_headshot.jpg" alt="Headshot of Beckah Moscuzza taken by Pam Lau">
+			</div>
+			<div class="headerName">
+				<h2>I'm</h2>
+				<h1>Beckah Moscuzza</h1>
+				<p>Web Developer</p>
+				<button class="headerButton"><a href="#about">About Me</a></button>
+			</div>
 		</div>
-		<div class="headerName">
-			<h2>I'm</h2>
-			<h1>Beckah Moscuzza</h1>
-			<p>Web Developer</p>
-			<button class="headerButton"><a href="#about">About Me</a></button>
-		</div>
-		<div class="headerFloatingImages">
+		<!-- <div class="headerFloatingImages">
 			<img src="images/book_is_better.png" alt="">
 			<img src="images/dungeons_and_dragons.png" alt="">
 			<img src="images/soundbyte.png" alt="">
 			<img src="images/the_weather_outside.png" alt="">
-		</div>
+		</div> -->
 	</header>
 	<section id="about" class="wrapper">
 		<div class="sectionTitle">
@@ -63,12 +65,10 @@
 						<li>Beckah Moscuzza</li>
 						<li>June 4</li>
 						<li>Web Developer</li>
-						<li>647-998-2990</li>
-						<li>beckah@moscuzza.ca</li>
+						<li><a href="tel:647-998-2990">647-998-2990</a></li>
+						<li><a href="mailto:beckah@moscuzza.ca">beckah@moscuzza.ca</a></li>
 					</ul>
 				</section>
-				<!-- <button>Download My Resume</button> -->
-				<button><a href="#contact">Hire Me Now</a></button>
 			</div>
 			<div class="aboutSocial">
 				<img src="images/beckah_moscuzza_headshot.jpg" alt="">
@@ -135,29 +135,34 @@
 			</div>
 		</div>
 		<section class="contactForm">
-			<h3>Send Me A Message</h3>
+			<div class="contactTitle">
+				<i class="fa fa-circle" aria-hidden="true"></i>
+				<h3>Send Me A Message</h3>
+			</div>
 			<div class="contactFormWrap">
 				<form>
-					<label for="">Name</label>
-					<input type="text" placeholder="Full Name">
-					<label for="">Email</label>
-					<input type="email" placeholder="Email">
-					<label for="">Subject</label>
-					<input type="text" placeholder="Your subject goes here">
-					<label for="">Message</label>
-					<textarea name="" id="" cols="30" rows="10" placeholder="Your message goes here"></textarea>
+					<label for="name">Name</label>
+					<input type="text" id="name" placeholder="Full Name">
+					<label for="email">Email</label>
+					<input type="email" id="email" placeholder="Email">
+					<label for="subject">Subject</label>
+					<input type="text" id="subject" placeholder="Your subject goes here">
+					<label for="message">Message</label>
+					<textarea name="" id="message" cols="30" rows="5" placeholder="Your message goes here"></textarea>
 					<button>Submit</button>
 				</form>
 				<div>
-					<h4>Get In Touch</h4>
+					<div class="contactListsTitle">
+						<h4>Get In Touch</h4>
+					</div>
 					<div class="contactLists">
 						<ul class="contactLeft">
 							<li><i class="fa fa-phone" aria-hidden="true"></i></li>
 							<li><i class="fa fa-envelope" aria-hidden="true"></i></li>
 						</ul>
 						<ul class="contactRight">
-							<li>647-998-2990</li>
-							<li>beckah@moscuzza.ca</li>
+							<li><a href="tel:647-998-2990">647-998-2990</a></li>
+							<li><a href="mailto:beckah@moscuzza.ca">beckah@moscuzza.ca</a></li>
 							<li><a href="https://www.linkedin.com/in/beckahmoscuzza" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> <a href="https://twitter.com/rhmoscuzza?lang=en" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="https://github.com/RHMoscuzza" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
@@ -165,9 +170,10 @@
 			</div>
 		</section>
 	</section>
+	<section class="map"></section>
 	<footer>
 		<div class="wrapper">
-			<p>Designed by <a href="https://themeforest.net/item/man-one-page-personal-resumecv-template/20057362?s_rank=5">Spark-Media.</a> Built by Beckah Moscuzza 2017</p>
+			<p>© 2017 Beckah Moscuzza. All rights reserved.</p>
 		</div>
 	</footer>
 </body>
