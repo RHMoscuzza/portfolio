@@ -18,6 +18,9 @@
 	.sectionTitle::before {
 		margin-left: -850px;
 	}
+	.headerPicture {
+		margin-left: 2%;
+	}
 	.aboutLists ul {
 		width: 100%;
 		display: flex;
@@ -34,5 +37,51 @@
 	}
 }
 @media screen and (max-width: 820px) {
-	
+	.sectionTitle::before {
+		margin-left: -750px;
+	}
+}
+@media screen and (max-width: 760px) {
+	.sectionTitle::before {
+		margin-left: -700px;
+	}
+	.headerPicture {
+		display: none;
+	}
+}
+@media screen and (max-width: 720px) {
+	.sectionTitle::before {
+		display: none;
+	}
+	.sectionTitle i {
+		margin-left: 2%;
+	}
+}
+@media screen and (max-width: 670px) {
+	.sectionTitle {
+		margin-bottom: 40px;
+	}
+	.nameAndPhoto, .contactFormWrap {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.aboutLists {
+		width: 50%;
+	}
+	.aboutMeData, .aboutSocial, .contactFormWrap form {
+		width: 100%;
+	}
+	.button {
+		justify-content: center;
+		margin-bottom: 5%;
+	}
+	.contactTitle {
+		display: none;
+	}
+}
+@media screen and (max-width: 540px) {
+	.aboutLists {
+		width: 100%;
+		font-size: 13px;
+	}
 }

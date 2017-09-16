@@ -629,6 +629,8 @@ footer {
 @media screen and (max-width: 915px) {
   .sectionTitle::before {
     margin-left: -850px; }
+  .headerPicture {
+    margin-left: 2%; }
   .aboutLists ul {
     width: 100%;
     display: -webkit-box;
@@ -650,3 +652,50 @@ footer {
 @media screen and (max-width: 860px) {
   .sectionTitle::before {
     margin-left: -800px; } }
+
+@media screen and (max-width: 820px) {
+  .sectionTitle::before {
+    margin-left: -750px; } }
+
+@media screen and (max-width: 760px) {
+  .sectionTitle::before {
+    margin-left: -700px; }
+  .headerPicture {
+    display: none; } }
+
+@media screen and (max-width: 720px) {
+  .sectionTitle::before {
+    display: none; }
+  .sectionTitle i {
+    margin-left: 2%; } }
+
+@media screen and (max-width: 670px) {
+  .sectionTitle {
+    margin-bottom: 40px; }
+  .nameAndPhoto, .contactFormWrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .aboutLists {
+    width: 50%; }
+  .aboutMeData, .aboutSocial, .contactFormWrap form {
+    width: 100%; }
+  .button {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 5%; }
+  .contactTitle {
+    display: none; } }
+
+@media screen and (max-width: 540px) {
+  .aboutLists {
+    width: 100%;
+    font-size: 13px; } }
