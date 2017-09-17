@@ -275,6 +275,9 @@ nav img {
 .navBar a:hover {
   color: #fabe01; }
 
+.toggleNav {
+  display: none; }
+
 #home a {
   padding: 5px 20px; }
 
@@ -405,14 +408,15 @@ header {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: 35px;
+  font-size: 40px;
   -webkit-box-pack: space-evenly;
   -webkit-justify-content: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin: 30px; }
 
 .aboutSocial {
   width: 50%;
@@ -476,6 +480,10 @@ header {
     margin: 20px; }
   .portfolioContent p {
     word-wrap: break-word; }
+  .portfolioContent a {
+    color: #000; }
+  .portfolioContent a:hover {
+    color: #dabe01; }
 
 .contactForm {
   -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
@@ -653,6 +661,42 @@ footer {
   .sectionTitle::before {
     margin-left: -800px; } }
 
+@media screen and (max-width: 860px) {
+  .menu {
+    position: relative;
+    display: inline-block; }
+  .menu ul {
+    display: none; }
+  .menu ul.active {
+    display: block; }
+  .menu ul {
+    width: 200%;
+    position: absolute;
+    top: 120%;
+    right: 10px;
+    border: 1px solid #000;
+    background: #fff; }
+  .menu ul:after {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 0%;
+    left: 22px;
+    content: ''; }
+  .menu li {
+    margin: 10px;
+    display: block;
+    border-bottom: 1px dotted #000; }
+  .menu a {
+    display: block; }
+  .toggleNav {
+    padding: 20px;
+    color: #777;
+    font-size: 20px; }
+  .toggleNav:hover, .toggleNav.active {
+    text-decoration: none;
+    color: #000; } }
+
 @media screen and (max-width: 820px) {
   .sectionTitle::before {
     margin-left: -750px; } }
@@ -661,7 +705,12 @@ footer {
   .sectionTitle::before {
     margin-left: -700px; }
   .headerPicture {
-    display: none; } }
+    display: none; }
+  .headerName {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
 
 @media screen and (max-width: 720px) {
   .sectionTitle::before {
@@ -699,3 +748,7 @@ footer {
   .aboutLists {
     width: 100%;
     font-size: 13px; } }
+
+@media screen and (max-width: 416px) {
+  .headerName {
+    text-align: center; } }

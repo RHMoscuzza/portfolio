@@ -7,6 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
 	<link rel="stylesheet" href="styles/style.css">
 	<script src="https://use.fontawesome.com/82ee036dfb.js"></script>
+	<link rel="icon" type="image/png" href="images/favicon.ico">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
 <body>
@@ -14,14 +15,15 @@
 		<div class="logo">
 				<img src="images/logo.png" alt="Beckah Moscuzza 'B' logo">
 		</div>
-		<div class="navBar">
+		<div class="navBar menu">
 			<ul>
 				<li><a href="#home">Home</a></li>
 				<li><a href="#about">About Me</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a href="http://beckah.moscuzza.ca/blog" target="_blank">Blog</a></li>
 				<li><a href="#contact">Contact Me</a></li>
-			</ul>			
+			</ul>	
+			<a class="toggleNav" href="#">&#9776;</a>		
 		</div>
 	</nav>
 	<header id="home">
@@ -104,19 +106,25 @@
 		</div>
 		<div class="portfolioContent">
 			<div>
-				<img src="images/soundbyte.png" alt="Snapshot of my PSD Coversion project">
-				<h5>PSD Conversion</h5>
-				<p>HTML5, CSS3, Sass</p>
+				<a href="http://beckah.moscuzza.ca/psd_conversion/" target="_blank">
+					<img src="images/soundbyte.png" alt="Snapshot of my PSD Coversion project">
+					<h5>PSD Conversion</h5>
+					<p>HTML5, CSS3, Sass</p>
+				</a>
 			</div>
 			<div>
-				<img src="images/book_is_better.png" alt="Snapshot of my team project">
-				<h5>API Team Project</h5>
-				<p>JavaScript, HTML5, CSS3, Sass, jQuery, Gulp, Git, Github</p>
+				<a href="https://teamquattro.github.io/Project5/" target="_blank">
+					<img src="images/book_is_better.png" alt="Snapshot of my team project">
+					<h5>API Team Project</h5>
+					<p>JavaScript, HTML5, CSS3, Sass, jQuery, Gulp, Git, Github</p>
+				</a>
 			</div>
 			<div>
-				<img src="images/the_weather_outside.png" alt="Snapshot of my API and Firebase project">
-				<h5>API and Firebase Project</h5>
-				<p>JavaScript, HTML5, CSS3, Sass, jQuery, Gulp, Git, Github, Firebase</p>
+				<a href="https://project-six-2d07b.firebaseapp.com/" target="_blank">
+					<img src="images/the_weather_outside.png" alt="Snapshot of my API and Firebase project">
+					<h5>API and Firebase Project</h5>
+					<p>JavaScript, HTML5, CSS3, Sass, jQuery, Gulp, Git, Github, Firebase</p>
+				</a>
 			</div>
 		</div>
 	</section>
@@ -170,8 +178,11 @@
 	</section>
 	<footer>
 		<div class="wrapper">
-			<p>© 2017 Beckah Moscuzza. All rights reserved.</p>
+			<p>© 2017 Beckah Moscuzza.</p>
 		</div>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="../scripts/script.js"></script>
 </body>
 </html>
