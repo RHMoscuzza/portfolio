@@ -35,6 +35,11 @@
 	.sectionTitle::before {
 		margin-left: -800px;
 	}
+	nav {
+		background: #fff;
+		position: fixed;
+		z-index: 11;
+	}
 }
 @media screen and (max-width: 860px) {
     .menu {

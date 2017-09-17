@@ -609,6 +609,7 @@ header {
 .map {
   background-image: url(../images/map_of_toronto.png);
   width: 100%;
+  background-position: bottom;
   height: 500px;
   position: relative;
   margin-top: -225px; }
@@ -667,7 +668,11 @@ footer {
 
 @media screen and (max-width: 860px) {
   .sectionTitle::before {
-    margin-left: -800px; } }
+    margin-left: -800px; }
+  nav {
+    background: #fff;
+    position: fixed;
+    z-index: 11; } }
 
 @media screen and (max-width: 860px) {
   .menu {
