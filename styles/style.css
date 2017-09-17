@@ -552,7 +552,8 @@ header {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-left: 5px; }
+    padding-left: 5px;
+    margin-top: 20px; }
   .contactFormWrap h4 {
     font-size: 18px; }
   .contactFormWrap .contactLists {
@@ -582,7 +583,9 @@ header {
     border: 1px solid #000;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px; }
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 5px; }
   .contactFormWrap label {
     margin-top: 20px;
     font-size: 15px; }
