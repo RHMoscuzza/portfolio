@@ -173,7 +173,9 @@ template {
   box-sizing: border-box; }
 
 body {
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0; }
 
 .wrapper {
   max-width: 1170px;
@@ -314,7 +316,8 @@ header {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  margin: 0; }
 
 .headerPicture img {
   border-radius: 50%;
@@ -409,14 +412,16 @@ header {
   display: -ms-flexbox;
   display: flex;
   font-size: 40px;
-  -webkit-box-pack: space-evenly;
-  -webkit-justify-content: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 30px; }
+
+.skillIcons i {
+  padding: 0 15px 15px 15px; }
 
 .aboutSocial {
   width: 50%;
