@@ -32,16 +32,9 @@
 	}
 }
 @media screen and (max-width: 860px) {
-	.sectionTitle::before {
-		margin-left: -800px;
-	}
-	nav {
-		background: #fff;
-		position: fixed;
-		z-index: 11;
-	}
-}
-@media screen and (max-width: 860px) {
+    .sectionTitle::before {
+    	margin-left: -800px;
+    }
     .menu {
         position:relative;
         display:inline-block;
