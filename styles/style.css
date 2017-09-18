@@ -475,8 +475,7 @@ header {
     width: 350px; }
   .portfolioContent div {
     margin: 5px 10px;
-    width: 350px; }
-  .portfolioContent div:hover {
+    width: 350px;
     -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
     -moz-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
     box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37); }
@@ -729,7 +728,8 @@ footer {
 
 @media screen and (max-width: 670px) {
   .sectionTitle {
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    margin-top: 40px; }
   .nameAndPhoto, .contactFormWrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -760,7 +760,9 @@ footer {
 
 @media screen and (max-width: 416px) {
   .headerName {
-    text-align: center; } }
+    text-align: center; }
+  .aboutSkillsTitle {
+    margin-left: 10px; } }
 
 @media screen and (max-width: 370px) {
   body {
