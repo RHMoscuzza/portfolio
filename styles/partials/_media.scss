@@ -91,6 +91,9 @@
 	}
 }
 @media screen and (max-width: 760px) {
+	header {
+		height: 350px;
+	}
 	.sectionTitle::before {
 		margin-left: -700px;
 	}
@@ -142,13 +145,14 @@
 		text-align: center;
 	}
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 370px) {
 	body {
 		margin: 0 auto;
 	}
 	.aboutLists ul {
 		font-size: 12px;
-		margin: 0;
+		margin-left: -30px;
+		text-align: center;
 	}
 	.portfolioContent img {
 		width: 100%;
