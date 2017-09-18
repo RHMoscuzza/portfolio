@@ -759,3 +759,12 @@ footer {
 @media screen and (max-width: 416px) {
   .headerName {
     text-align: center; } }
+
+@media screen and (max-width: 360px) {
+  body {
+    margin: 0 auto; }
+  .aboutLists ul {
+    font-size: 12px;
+    margin: 0; }
+  .portfolioContent img {
+    width: 100%; } }
