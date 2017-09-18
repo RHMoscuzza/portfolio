@@ -253,7 +253,8 @@ nav {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  font-weight: bold; }
 
 nav img {
   width: 80px; }
@@ -486,8 +487,8 @@ header {
     word-wrap: break-word; }
   .portfolioContent a {
     color: #000; }
-  .portfolioContent a:hover {
-    color: #dabe01; }
+  .portfolioContent div:hover {
+    background: #dabe01; }
 
 .contactForm {
   -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
