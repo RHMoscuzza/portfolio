@@ -45,6 +45,7 @@
     }
     .menu ul.active {
         display: block;
+
     }
     .menu ul {
         width: 200%;
@@ -53,6 +54,7 @@
         right: 10px;
         border: 1px solid #000;
         background: #fff;
+
     }
  
     .menu ul:after {
@@ -111,34 +113,32 @@
 	.sectionTitle i {
 		margin-left: 2%;
 	}
+	.aboutMeData, .aboutSocial, .contactFormWrap form {
+		width: 80%;
+		margin: 0 auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.nameAndPhoto, .contactFormWrap {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.contactFormWrap .contactListWrap {
+	    width: 100%;
+	    line-height: 30px;
+	}
+	.button {
+		justify-content: center;
+		margin-bottom: 5%;
+	}
 }
 @media screen and (max-width: 670px) {
 	.sectionTitle {
 		margin-bottom: 40px;
 		margin-top: 40px;
 	}
-	.nameAndPhoto, .contactFormWrap {
-		flex-direction: column;
-		justify-content: center;
-	}
-	.aboutLists {
-		width: 50%;
-	}
-	.aboutMeData, .aboutSocial, .contactFormWrap form {
-		width: 100%;
-	}
-	.button {
-		justify-content: center;
-		margin-bottom: 5%;
-	}
 	.contactTitle {
 		display: none;
-	}
-}
-@media screen and (max-width: 540px) {
-	.aboutLists {
-		width: 100%;
-		font-size: 13px;
 	}
 }
 @media screen and (max-width: 416px) {
@@ -152,11 +152,6 @@
 @media screen and (max-width: 370px) {
 	body {
 		margin: 0 auto;
-	}
-	.aboutLists ul {
-		font-size: 12px;
-		margin-left: -30px;
-		text-align: center;
 	}
 	.portfolioContent img {
 		width: 100%;

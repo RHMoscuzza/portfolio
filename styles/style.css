@@ -200,6 +200,9 @@ h2 {
   margin-top: 130px;
   margin-bottom: 70px; }
 
+#about .sectionTitle {
+  margin-bottom: 0; }
+
 .sectionTitle i {
   color: #fabe01;
   margin-right: 10px;
@@ -245,7 +248,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 75px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -257,7 +260,7 @@ nav {
   font-weight: bold; }
 
 nav img {
-  width: 80px; }
+  width: 50px; }
 
 .navBar ul {
   display: -webkit-box;
@@ -334,54 +337,13 @@ header {
 .headerName p {
   font-size: 18px; }
 
-.headerFloatingImages {
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-
-.headerFloatingImages img {
-  width: 250px;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-  margin-right: 70px; }
-
 .nameAndPhoto {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
 
-.aboutLists {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 100%; }
-  .aboutLists li {
-    margin-bottom: 15%;
-    font-size: 15px;
-    margin-right: 5%; }
-
-.listLeft, .listRight {
-  width: 30%; }
-
-.aboutLists a {
-  color: #000; }
-
-.aboutLists a:hover {
-  color: #dabe01; }
-
 .aboutMeData {
-  width: 50%;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -390,7 +352,25 @@ header {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50%;
+  margin-left: 60px;
+  font-family: 'Roboto', sans-serif; }
+  .aboutMeData h3 {
+    font-size: 24px;
+    margin: 0; }
+  .aboutMeData h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 0; }
+  .aboutMeData span {
+    color: #fabe01; }
 
 .aboutSkillsTitle {
   display: -webkit-box;
@@ -459,7 +439,8 @@ header {
 
 .aboutSocial img {
   width: 300px;
-  border: 3px solid #dabe01; }
+  border: 3px solid #dabe01;
+  margin-bottom: 20px; }
 
 .portfolioContent {
   display: -webkit-box;
@@ -568,13 +549,16 @@ header {
     display: flex;
     background-color: #000;
     color: #fff; }
+  .contactFormWrap .contactListWrap {
+    width: 50%;
+    line-height: 30px; }
   .contactFormWrap .contactLeft i {
     background-color: #dabe01;
     color: #000;
     width: 20px;
     text-align: center;
     padding: 2px;
-    margin: 5px; }
+    margin: 13px 10px 0 10px; }
   .contactFormWrap .contactRight li {
     padding: 2px;
     margin: 5px; }
@@ -725,12 +709,12 @@ footer {
   .sectionTitle::before {
     display: none; }
   .sectionTitle i {
-    margin-left: 2%; } }
-
-@media screen and (max-width: 670px) {
-  .sectionTitle {
-    margin-bottom: 40px;
-    margin-top: 40px; }
+    margin-left: 2%; }
+  .aboutMeData, .aboutSocial, .contactFormWrap form {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
   .nameAndPhoto, .contactFormWrap {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -741,23 +725,22 @@ footer {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }
-  .aboutLists {
-    width: 50%; }
-  .aboutMeData, .aboutSocial, .contactFormWrap form {
-    width: 100%; }
+  .contactFormWrap .contactListWrap {
+    width: 100%;
+    line-height: 30px; }
   .button {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-bottom: 5%; }
+    margin-bottom: 5%; } }
+
+@media screen and (max-width: 670px) {
+  .sectionTitle {
+    margin-bottom: 40px;
+    margin-top: 40px; }
   .contactTitle {
     display: none; } }
-
-@media screen and (max-width: 540px) {
-  .aboutLists {
-    width: 100%;
-    font-size: 13px; } }
 
 @media screen and (max-width: 416px) {
   .headerName {
@@ -768,9 +751,5 @@ footer {
 @media screen and (max-width: 370px) {
   body {
     margin: 0 auto; }
-  .aboutLists ul {
-    font-size: 12px;
-    margin-left: -30px;
-    text-align: center; }
   .portfolioContent img {
     width: 100%; } }
