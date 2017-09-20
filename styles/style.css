@@ -258,6 +258,8 @@ nav {
   -ms-flex-align: center;
   align-items: center;
   font-weight: bold; }
+  nav .fa {
+    color: #fabe01; }
 
 nav img {
   width: 50px; }
@@ -279,7 +281,7 @@ nav img {
   color: #000; }
 
 .navBar a:hover {
-  color: #fabe01; }
+  color: black; }
 
 .toggleNav {
   display: none; }
@@ -653,40 +655,51 @@ footer {
 @media screen and (max-width: 860px) {
   .sectionTitle::before {
     margin-left: -800px; }
-  .menu {
-    position: relative;
-    display: inline-block; }
-  .menu ul {
-    display: none; }
-  .menu ul.active {
-    display: block; }
-  .menu ul {
-    width: 200%;
-    position: absolute;
-    top: 120%;
-    right: 10px;
-    border: 1px solid #000;
-    background: #fff; }
-  .menu ul:after {
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    top: 0%;
-    left: 22px;
-    content: ''; }
-  .menu li {
-    margin: 10px;
-    display: block;
-    border-bottom: 1px dotted #000; }
-  .menu a {
-    display: block; }
   .toggleNav {
-    padding: 20px;
-    color: #777;
-    font-size: 20px; }
-  .toggleNav:hover, .toggleNav.active {
-    text-decoration: none;
-    color: #000; } }
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 3%;
+    z-index: 1;
+    font-size: 30px;
+    padding-right: 15px;
+    color: #000; }
+  .menu ul {
+    position: fixed;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    display: block;
+    height: 100vh;
+    background: #000;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: right .3s;
+    -o-transition: right .3s;
+    transition: right .3s; }
+    .menu ul li {
+      text-align: center;
+      margin-left: 0;
+      border-bottom: none;
+      color: #000; }
+    .menu ul li:first-child {
+      margin-top: 80%;
+      border-bottom: none; }
+    .menu ul li:nth-of-type(2) {
+      border-bottom: none; }
+    .menu ul li:nth-of-type(3) {
+      border-bottom: none; }
+    .menu ul li:last-child {
+      border-bottom: none; }
+    .menu ul a {
+      border-bottom: none;
+      padding: 15px 0;
+      display: inline-block;
+      width: 100%;
+      color: #fabe01; }
+      .menu ul a:hover {
+        background: #fabe01;
+        color: #000; } }
 
 @media screen and (max-width: 820px) {
   .sectionTitle::before {

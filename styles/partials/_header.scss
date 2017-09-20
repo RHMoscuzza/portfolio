@@ -7,6 +7,9 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	font-weight: bold;
+	.fa {
+		color: #fabe01;
+	}
 }
 nav img {
 	width: 50px;
@@ -22,7 +25,7 @@ nav img {
 	color: #000;
 }
 .navBar a:hover {
-	color: #fabe01;
+	color: black;
 }
 .toggleNav {
     display:none;
