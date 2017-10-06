@@ -402,6 +402,8 @@ header {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 30px; }
+  .skillIcons p {
+    display: none; }
 
 .skillIcons i {
   padding: 0 15px 15px 15px; }
@@ -458,7 +460,7 @@ header {
   .portfolioContent img {
     width: 350px; }
   .portfolioContent div {
-    margin: 5px 10px;
+    margin: 10px 10px;
     width: 350px;
     -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
     -moz-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
@@ -530,7 +532,7 @@ header {
     align-content: center;
     margin-right: 25px; }
   .contactFormWrap .contactListsTitle {
-    background-color: #dabe01;
+    background-color: #fabe01;
     height: 50px;
     display: -webkit-box;
     display: -webkit-flex;
@@ -555,7 +557,7 @@ header {
     width: 50%;
     line-height: 30px; }
   .contactFormWrap .contactLeft i {
-    background-color: #dabe01;
+    background-color: #fabe01;
     color: #000;
     width: 20px;
     text-align: center;
@@ -569,7 +571,7 @@ header {
   .contactFormWrap .contactRight a {
     color: #fff; }
   .contactFormWrap .contactRight a:hover {
-    color: #dabe01; }
+    color: #fabe01; }
   .contactFormWrap input, .contactFormWrap textarea {
     border: 1px solid #000;
     width: 100%;

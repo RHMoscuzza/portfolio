@@ -2,15 +2,6 @@ console.log("This site designed By Spark-Media https://themeforest.net/item/man-
 console.log("Photographs by Pam Lau Twitter: @PamLau");
 console.log("Hamburger Menu courtesy https://codepen.io/nickcil/pen/pvPQJK")
 
-// jQuery(document).ready(function() {
-//     jQuery(".toggleNav").click(function(e) {
-//         jQuery(this).toggleClass("active");
-//         jQuery(".menu ul").toggleClass("active");
- 
-//         e.preventDefault();
-//     });
-// });
-
 const hamFunction = function(){
     const nav = $(".menu ul");
     const hamburgerIcon = $(".toggleNav");
