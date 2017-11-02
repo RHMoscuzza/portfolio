@@ -345,18 +345,47 @@ header {
 .headerName p {
   font-size: 18px; }
 
-.portfolioContent img {
-  width: 350px; }
-
-.portfolioContent h5, .portfolioContent p {
-  padding-left: 15px;
-  margin: 20px; }
-
-.portfolioContent p {
-  word-wrap: break-word; }
-
-.portfolioContent a {
-  color: #000; }
+.portfolioContent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .portfolioContent img {
+    width: 500px; }
+  .portfolioContent .left, .portfolioContent .right {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 300px;
+    width: 50%;
+    margin-bottom: 25px; }
+  .portfolioContent .portfolioContentInfo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .portfolioContent h5, .portfolioContent p {
+    padding-left: 15px;
+    margin: 20px; }
+  .portfolioContent h5 {
+    font-size: 25px; }
+  .portfolioContent p {
+    word-wrap: break-word; }
+  .portfolioContent a {
+    color: #000; }
 
 .contactForm {
   -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
