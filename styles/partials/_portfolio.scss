@@ -1,17 +1,17 @@
 .portfolioContent {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	// display: flex;
+	// flex-wrap: wrap;
+	// justify-content: space-around;
 	img {
 		width: 350px;
 	}
-	div {
-		margin: 10px 10px;
-		width: 350px;
-		-webkit-box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
-		-moz-box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
-		box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
-	}
+	// div {
+	// 	margin: 10px 10px;
+	// 	width: 350px;
+	// 	-webkit-box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
+	// 	-moz-box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
+	// 	box-shadow: -1px 5px 16px 0px rgba(105,105,105,0.37);
+	// }
 	h5, p {
 		padding-left: 15px;
 		margin: 20px;
@@ -22,7 +22,7 @@
 	a {
 		color: #000;
 	}
-	div:hover {
-		background: #dabe01;
-	}
+	// div:hover {
+	// 	background: #dabe01;
+	// }
 }

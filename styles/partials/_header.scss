@@ -31,7 +31,13 @@ nav img {
     display:none;
 }
 #home a {
-	padding: 5px 20px;
+	padding: 20px 20px 20px 0;
+	background: transparent;
+    color: #000;
+    font-size: 25px;
+}
+#home a:hover {
+	color: #fff;
 }
 header {
 	height: 700px;
@@ -62,3 +68,16 @@ header {
 .headerName p {
 	font-size: 18px;
 }
+// .skillIcons {
+// 	display: flex;
+// 	font-size: 40px;
+//     justify-content: space-around;
+//     flex-wrap: wrap;
+//     margin: 30px;
+//     p {
+//     	display: none;
+//     }
+// }
+// .skillIcons i {
+// 	padding: 0 15px 15px 15px;
+// }

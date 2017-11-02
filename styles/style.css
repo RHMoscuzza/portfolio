@@ -287,7 +287,13 @@ nav img {
   display: none; }
 
 #home a {
-  padding: 5px 20px; }
+  padding: 20px 20px 20px 0;
+  background: transparent;
+  color: #000;
+  font-size: 25px; }
+
+#home a:hover {
+  color: #fff; }
 
 header {
   height: 700px;
@@ -339,141 +345,18 @@ header {
 .headerName p {
   font-size: 18px; }
 
-.nameAndPhoto {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
+.portfolioContent img {
+  width: 350px; }
 
-.aboutMeData {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 50%;
-  margin-left: 60px;
-  font-family: 'Roboto', sans-serif; }
-  .aboutMeData h3 {
-    font-size: 24px;
-    margin: 0; }
-  .aboutMeData h4 {
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 22px;
-    margin-top: 10px;
-    margin-bottom: 0; }
-  .aboutMeData span {
-    color: #fabe01; }
+.portfolioContent h5, .portfolioContent p {
+  padding-left: 15px;
+  margin: 20px; }
 
-.aboutSkillsTitle {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 60px;
-  margin-bottom: 20px; }
-  .aboutSkillsTitle h4 {
-    font-size: 24px;
-    margin: 0; }
-  .aboutSkillsTitle i {
-    color: #fabe01;
-    margin-right: 10px;
-    margin-top: 5px; }
+.portfolioContent p {
+  word-wrap: break-word; }
 
-.skillIcons {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 40px;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: 30px; }
-  .skillIcons p {
-    display: none; }
-
-.skillIcons i {
-  padding: 0 15px 15px 15px; }
-
-.aboutSocial {
-  width: 50%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  .aboutSocial ul {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-
-.aboutSocial li {
-  font-size: 20px;
-  margin-right: 10px; }
-  .aboutSocial li a {
-    color: #000; }
-    .aboutSocial li a :hover {
-      color: #dabe01; }
-
-.aboutSocial img {
-  width: 300px;
-  border: 3px solid #dabe01;
-  margin-bottom: 20px; }
-
-.portfolioContent {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
-  .portfolioContent img {
-    width: 350px; }
-  .portfolioContent div {
-    margin: 10px 10px;
-    width: 350px;
-    -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
-    -moz-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
-    box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37); }
-  .portfolioContent h5, .portfolioContent p {
-    padding-left: 15px;
-    margin: 20px; }
-  .portfolioContent p {
-    word-wrap: break-word; }
-  .portfolioContent a {
-    color: #000; }
-  .portfolioContent div:hover {
-    background: #dabe01; }
+.portfolioContent a {
+  color: #000; }
 
 .contactForm {
   -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
