@@ -353,19 +353,21 @@ header {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
-  .portfolioContent img {
-    width: 500px; }
+  width: 100%; }
   .portfolioContent .left, .portfolioContent .right {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    height: 300px;
-    width: 50%;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    -webkit-box-shadow: 1px 5px 40px 5px rgba(250, 190, 1, 0.25);
+    box-shadow: 1px 5px 40px 5px rgba(250, 190, 1, 0.25); }
+  .portfolioContent .right {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse; }
   .portfolioContent .portfolioContentInfo {
     display: -webkit-box;
     display: -webkit-flex;
