@@ -354,12 +354,16 @@ header {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   width: 100%; }
+  .portfolioContent :last-child {
+    margin-bottom: 25px; }
+  .portfolioContent img {
+    height: 100%; }
   .portfolioContent .left, .portfolioContent .right {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 25px;
+    padding: 25px;
     -webkit-box-shadow: 1px 5px 40px 5px rgba(250, 190, 1, 0.25);
     box-shadow: 1px 5px 40px 5px rgba(250, 190, 1, 0.25); }
   .portfolioContent .right {
@@ -373,7 +377,6 @@ header {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 50%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -560,24 +563,7 @@ footer {
   .sectionTitle::before {
     margin-left: -850px; }
   .headerPicture {
-    margin-left: 2%; }
-  .aboutLists ul {
-    width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: space-evenly;
-    -webkit-justify-content: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly; }
-  .aboutLists li {
-    margin-left: 10%; } }
+    margin-left: 2%; } }
 
 @media screen and (max-width: 860px) {
   .sectionTitle::before {
@@ -627,7 +613,17 @@ footer {
       margin-left: 20px; }
       .menu ul a:hover {
         background: #fabe01;
-        color: #000; } }
+        color: #000; }
+  .portfolioContent .left, .portfolioContent .right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 5%;
+    height: 100%; }
+  .portfolioContent a {
+    height: 100%; } }
 
 @media screen and (max-width: 820px) {
   .sectionTitle::before {
@@ -644,31 +640,14 @@ footer {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
-    justify-content: center; } }
+    justify-content: center;
+    margin: 20px; } }
 
 @media screen and (max-width: 720px) {
   .sectionTitle::before {
     display: none; }
   .sectionTitle i {
     margin-left: 2%; }
-  .aboutMeData, .aboutSocial, .contactFormWrap form {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px; }
-  .nameAndPhoto, .contactFormWrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-  .contactFormWrap .contactListWrap {
-    width: 100%;
-    line-height: 30px; }
   .button {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -685,9 +664,7 @@ footer {
 
 @media screen and (max-width: 416px) {
   .headerName {
-    text-align: center; }
-  .aboutSkillsTitle {
-    margin-left: 10px; } }
+    text-align: center; } }
 
 @media screen and (max-width: 370px) {
   body {

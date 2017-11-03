@@ -2,9 +2,15 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	:last-child {
+		margin-bottom: 25px;
+	}
+	img {
+		height: 100%;
+	}
 	.left, .right {
 		display: flex;
-		margin-bottom: 25px;
+		padding: 25px;
 		-webkit-box-shadow: 1px 5px 40px 5px rgba(250,190,1,0.25); 
 		box-shadow: 1px 5px 40px 5px rgba(250,190,1,0.25);
 	}
@@ -13,7 +19,7 @@
 	}
 	.portfolioContentInfo {
 		display: flex;
-		width: 50%;
+		// width: 50%;
 		flex-direction: column;
 	}
 	h5, p {
