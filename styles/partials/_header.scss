@@ -7,11 +7,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	font-weight: bold;
-	position: sticky;
-	top: 0;
-    background: #fff;
-    -webkit-box-shadow: 1px 5px 40px 5px rgba(250,190,1,0.25); 
-    box-shadow: 1px 5px 40px 5px rgba(250,190,1,0.25);
+	z-index: 9;
 	.fa {
 		color: #fabe01;
 	}
