@@ -126,10 +126,10 @@
 	.sectionTitle i {
 		margin-left: 2%;
 	}
-	.button {
-		justify-content: center;
-		margin-bottom: 5%;
-	}
+	// .button {
+	// 	justify-content: center;
+	// 	margin-bottom: 5%;
+	// }
 }
 @media screen and (max-width: 670px) {
 	.sectionTitle {
@@ -139,6 +139,9 @@
 	.contactTitle {
 		display: none;
 	}
+    .portfolioContent img {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 416px) {
 	.headerName {

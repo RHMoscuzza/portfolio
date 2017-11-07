@@ -200,9 +200,6 @@ h2 {
   margin-top: 80px;
   margin-bottom: 70px; }
 
-#about .sectionTitle {
-  margin-bottom: 0; }
-
 .sectionTitle i {
   color: #fabe01;
   margin-right: 10px;
@@ -297,7 +294,7 @@ nav img {
   color: #fff; }
 
 header {
-  height: 700px;
+  height: 800px;
   width: 100%;
   background-color: #fabe01;
   display: -webkit-box;
@@ -350,7 +347,7 @@ header {
 #arrow {
   font-size: 50px;
   position: absolute;
-  bottom: 22%;
+  bottom: 6%;
   z-index: 5; }
 
 .bounce {
@@ -465,8 +462,6 @@ header {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
-  .portfolioContent :last-child {
-    margin-bottom: 25px; }
   .portfolioContent img {
     height: 100%; }
   .portfolioContent .left, .portfolioContent .right {
@@ -514,9 +509,13 @@ header {
     display: -ms-flexbox;
     display: flex;
     font-size: 30px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
     color: #fabe01; }
     .portfolioContent .portfolioSkills i {
-      margin-right: 10px; }
+      margin-right: 10px;
+      margin-bottom: 10px; }
 
 .contactForm {
   -webkit-box-shadow: -1px 5px 16px 0px rgba(105, 105, 105, 0.37);
@@ -665,7 +664,8 @@ footer {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  width: 100%; }
+  width: 100%;
+  margin-top: 2%; }
   footer a {
     color: #000;
     font-size: 20px;
@@ -781,20 +781,16 @@ footer {
   .sectionTitle::before {
     display: none; }
   .sectionTitle i {
-    margin-left: 2%; }
-  .button {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-bottom: 5%; } }
+    margin-left: 2%; } }
 
 @media screen and (max-width: 670px) {
   .sectionTitle {
     margin-bottom: 40px;
     margin-top: 40px; }
   .contactTitle {
-    display: none; } }
+    display: none; }
+  .portfolioContent img {
+    width: 100%; } }
 
 @media screen and (max-width: 416px) {
   .headerName {

@@ -1,9 +1,9 @@
 .portfolioContent {
 	display: flex;
 	flex-wrap: wrap;
-	:last-child {
-		margin-bottom: 25px;
-	}
+	// :last-child {
+	// 	margin-bottom: 25px;
+	// }
 	img {
 		height: 100%;
 
@@ -43,9 +43,11 @@
 	.portfolioSkills {
 		display: flex;
 		font-size: 30px;
+		flex-wrap: wrap;
 		color: #fabe01;
 		i {
 			margin-right: 10px;
+			margin-bottom: 10px;
 		}
 	}
 }
